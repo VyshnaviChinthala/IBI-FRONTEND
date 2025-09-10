@@ -1,0 +1,12 @@
+
+/* Custom styles for Zentrixia (tailwind used heavily) */
+:root{ --glass: rgba(255,255,255,0.6); }
+
+.shadow-soft-lg { box-shadow: 0 12px 30px rgba(15,23,42,0.06); }
+
+.nav-link { color: #1f2937; }
+.nav-link:hover { color: #4f46e5; }
+
+@media (max-width: 640px) {
+  .hero-cta { flex-direction: column; gap: 8px; }
+}
